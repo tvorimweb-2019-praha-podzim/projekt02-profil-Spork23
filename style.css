@@ -16,4 +16,75 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    }
+
+.profil {width: 250px;
+    box-shadow: 0px 5px 17px #31363b;
+    background:#31363b;
+}
+
+.foto {width: 250px;
+    height:170.77px;}
+
+.obsah {background-color: #31363b;
+        padding: 25px;
+    }
+
+.jmeno {font-family: 'Montserrat', sans-serif;
+color: white;
+font-size: 1.5em;}
+
+.obsah {font-family: 'Source Sans Pro', sans-serif;
+color: #bdc3c7;
+font-size: 0.9em;
+}
+
+.portfolio {background-color: #31363b;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    padding: 13px;
+    }
+
+.odkazy { list-style: none;
+        padding:0px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin:0;
+        border-top: 1px solid #3f464d;
+    }    
+
+.portfolio a {color: #bdc3c7;
+text-decoration: none;
+}
+
+.facebook a,.twitter a {color: #bdc3c7;
+    text-decoration: none;
+}
+
+.facebook, .twitter {background-color: #31363b;
+    width: 125px;
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+}
+
+.twitter {background-color:#1da1f2;
+    padding:10px;
+        }
+    
+.facebook{border-top: 1px solid #3f464d;}
+
+.twitter a {color:white;}
+
+.logo {
+    top: 150px;
+    left: 180px;
+    position: absolute;
+    z-index: 100;
+    background-color: #b92e81;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px 1px black;
 }
